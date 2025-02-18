@@ -9,23 +9,24 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "latest",
+    "bcryptjs": "latest",
+    "jsonwebtoken": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "redis": "latest",
     "tailwindcss": "latest",
     "typescript": "latest",
-    "jsonwebtoken": "latest",
-    "bcryptjs": "latest",
-    "axios": "latest",
-    "redis": "latest",
     "ws": "latest"
   },
   "devDependencies": {
+    "@types/node": "^22.13.4",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
+    "postcss": "latest"
   }
 }
