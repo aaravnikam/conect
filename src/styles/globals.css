@@ -1,0 +1,51 @@
+:root {
+  --primary-text: rgb(17, 17, 17);
+  --secondary-text: rgb(71, 71, 71);
+  --background: rgb(255, 255, 255);
+  --accent: rgb(82, 0, 255);
+  --hover-state: rgba(82, 0, 255, 0.1);
+  --border: rgb(229, 229, 229);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text);
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--hover-state);
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.skeleton-loader {
+  background-color: var(--border);
+  border-radius: 8px;
+  height: 20px;
+  margin: 8px 0;
+}
